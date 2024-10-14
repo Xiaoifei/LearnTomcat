@@ -50,14 +50,14 @@ public class MyHttpResponse extends AbstractHttpServletResponse{
 //        }
 //    }
 
-    public String getResponseMessage(String code, String message){
-        return "HTTP/1.1 " + code + "\r\n" +
-                "Content-Type: text/html\r\n" +
-                "Content-Length: " + message.length() +
-                "\r\n" +
-                "\r\n" +
-                message;
-    }
+//    public String getResponseMessage(String code, String message){
+//        return "HTTP/1.1 " + code + "\r\n" +
+//                "Content-Type: text/html\r\n" +
+//                "Content-Length: " + message.length() +
+//                "\r\n" +
+//                "\r\n" +
+//                message;
+//    }
 
     @Override
     public void setStatus(int i, String s) {
